@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostalgic Cricket Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Nostalgic Cricket Game</h1>
+        <div id="game-area">
+            <div id="batsman"></div>
+            <div id="ball"></div>
+        </div>
+        <div class="controls">
+            <button onclick="moveBatsman('left')">Left</button>
+            <button onclick="moveBatsman('right')">Right</button>
+        </div>
+        <div class="scoreboard">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div id="game-over" class="hidden">
+            <h2>Game Over!</h2>
+            <p>Your Score: <span id="final-score">0</span></p>
+            <button onclick="startGame()">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

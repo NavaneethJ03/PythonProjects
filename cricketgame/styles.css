@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#game-area {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+#batsman {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 10px;
+    left: 135px;
+    background-color: black;
+}
+
+#ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.scoreboard {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
